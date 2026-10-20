@@ -1,0 +1,306 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*End of CSS Reset*/
+
+body {
+	width: 1024px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #F3FBFF;
+}
+
+#page {
+	width: 1024px;
+	height: auto;
+	background-color: #F3FBFF;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header {
+	width: 1024px;
+	height: 60px;
+	background-color: #213643;
+	border: solid;
+	border-color: #213643;
+	border-radius: 200px;
+}
+
+#nbar{
+	width: 60px;
+	height: 30px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+#wordmark{
+	width: auto;
+	height: auto;
+	margin-left: 75px;
+	margin-top: -10px;
+}
+
+#navbar{
+	width: auto;
+	height: 40px;
+	font-size: 21px;
+	margin-left: 450px;
+	margin-top: -20px;
+}
+
+#index {
+	width: 50px;
+	height: 50px;
+	margin-left: 970px;
+	margin-top: -60px;
+}
+
+td {
+	align-content: center;
+	font-family: "Zain","sans-serif";
+	font-size: 20px;
+	color: #05021d;
+	vertical-align: top; /*I know this isn't really a part of what we learned but I can't stand it being aligned to the bottom for this page*/
+}
+th {
+	align-content: center;
+	font-family: "Jua";
+	font-weight: Bold;
+	font-size: 20px;
+	color: #859f76;
+}
+
+#container{
+	padding:20px;
+}
+
+
+/*Home CSS Start*/
+
+/*Home CSS End*/
+
+/*Info CSS Start*/
+
+
+
+/*Info CSS End*/
+
+/*Gallery CSS Start*/
+#gnavbar{
+	border: 5px;
+	font-size: 21px;
+	border-color: #dde8ee;
+	background-color: #dde8ee;
+	border-style: solid;
+	border-radius: 200px;
+	align-content: center;
+	margin: auto;
+	margin-left: 10px;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+
+/*Gallery CSS End*/
+
+/*Design*/
+/*Links*/
+a:link{
+	font-family: "Jua";
+	font-size: 20px;
+	color: #859f76;
+	text-decoration: none;
+}
+
+a:hover{
+	font-family: "Darumadrop One";
+	font-weight:bold;
+	font-size: 22px;
+	color: #005580;
+	text-decoration: none;
+}
+
+a:active{
+	font-family: "Jua";
+	font-size: 20px;
+	color: #f3fbff;
+	text-decoration: none;
+}
+
+a:visited{
+	font-family: "Darumadrop One";
+	font-size: 20px;
+	color: #57a0d2;
+	text-decoration: none;
+}
+
+/*Typography*/
+/*Heading*/
+@font-face {
+  font-family: "Darumadrop One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+h1 {
+	font-family: "Darumadrop One","Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: Bold;
+	font-size: 40px;
+	color: #213643;
+	align-content: center;
+}
+
+/*Subheading*/
+@font-face {
+  font-family: "Jua", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+h2 {
+	font-family: "Jua","Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: Bold;
+	font-size: 35px;
+	color: #859f76;
+}
+
+h3 {
+	font-family: "Zain","Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: Bold;
+	font-size: 30px;
+	color: #76BCF6;
+}
+
+/*Body*/
+@font-face {
+  font-family: "Zain", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Zain", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Zain", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Zain", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Zain", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Zain", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Zain", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Zain", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+p {
+	font-family: "Zain","Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: none;
+	font-size: 25px;
+	color: #05021d;
+}
+em {
+  font-family: "Zain", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+strong {
+  font-family: "Zain", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+}
+
+/*Footer*/
+#footer {
+	font-family: "Zain";
+	font-size: 12px;
+	text-align: center;
+	background-color:#859f76;
+	border: 1px;
+	border-color: #213643;
+	border-style: solid;
+	border-radius: 300px;
+	height: 20px;
+	width: 1024px;
+}
