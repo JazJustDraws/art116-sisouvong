@@ -3,4 +3,4 @@
 <h1>Who</h1>
 <p>Me, Jaz</p>
 <h1>Why</h1>
-<p>Because it's cool, as an artist./p>
+<p>Because it's cool, as an artist.</p>
